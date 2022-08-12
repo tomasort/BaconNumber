@@ -34,7 +34,7 @@ public class KevinBaconGame {
             c.printStackTrace();
             return;
         }
-        // Initialize the Movie2Actors Map from the Actor2Mocies Map
+        // Initialize the Movie2Actors Map from the Actor2Movies Map
         Movie2Actors = new HashMap<String, ArrayList<String>>();
         for(String actor : Actor2Movies.keySet()){
             for(String movie : Actor2Movies.get(actor)){
